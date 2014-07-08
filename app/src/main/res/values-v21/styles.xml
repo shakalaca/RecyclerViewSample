@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_default_accent">#8f10b7a9</color>
+    <color name="photo_tint">#6f000000</color>
+
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorControlHighlight">@color/theme_default_accent</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowExitTransitionOverlap">true</item>
+    </style>
+
+    <style name="Card">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/card_height</item>
+
+        <item name="android:layout_margin">@dimen/card_margin</item>
+
+        <item name="android:elevation">@dimen/card_elevation</item>
+    </style>
+    <style name="CardPhoto">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+
+        <item name="android:tint">@color/photo_tint</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="CardTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+
+        <item name="android:gravity">bottom|left</item>
+        <item name="android:padding">@dimen/card_title_padding</item>
+
+        <item name="android:textSize">@dimen/card_title_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+
+        <item name="android:onClick">onItemClick</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+    </style>
+
+    <style name="CardDeco">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/card_deco_height</item>
+
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_height">150dp</dimen>
+    <dimen name="card_margin">4dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
+
+    <dimen name="card_title_size">20sp</dimen>
+    <dimen name="card_title_padding">8dp</dimen>
+
+    <dimen name="card_deco_height">36dp</dimen>
+
+</resources>
